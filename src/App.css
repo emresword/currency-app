@@ -1,0 +1,32 @@
+body {
+  margin:0;
+  padding:0;
+  height:100vh;
+  background-image:url(images\doviz-ve-doviz-kuru-nedir-nasil-belirlenir.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navi {
+  display: flex;
+  
+  padding: 10px;
+ 
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; 
+
+}
+
